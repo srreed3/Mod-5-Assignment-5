@@ -1,0 +1,54 @@
+body {
+    font-size: 18px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(147, 40, 40);
+}
+
+#teamdisplay{
+    display: flex;
+}
+
+.people {
+    background-color: lightgreen;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+    width: 70%;
+}
+
+.luca-image {
+    width: 85%;
+}
+
+.myra-image {
+    width: 90%;
+}
+
+a {
+    background-color: gray;
+    padding: 5px;
+}
+
+.media-container {
+    display: grid;
+    grid-template-columns: 90px 90px;
+    background-color: lightgreen;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid blue;
+    gap: 20px;
+    justify-content: space-around;
+}
